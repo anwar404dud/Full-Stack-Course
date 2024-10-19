@@ -9,11 +9,11 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-    <style>
+    <!-- <style>
       .backend-content {
         display: none;
       }
-    </style>
+    </style> -->
 
     <script>
       function showBackendContent() {
@@ -24,132 +24,118 @@
   </head>
 
   <body>
-     <!-- Full Stack Header -->
-     <div class="header">
-        <h1>Full-Stack Development Course</h1>
-        <p>Master front-end and back-end technologies to build powerful web applications.</p>
-      </div>
-  
-      <!-- Front-End Course Overview -->
-      <div class="container mt-5 frontend-content">
-        <h2>Front-End Development Course Overview</h2>
-        <p>This course is designed to teach you everything you need to know to become a Front-End Developer. You will learn how to create visually appealing, interactive, and responsive websites using core technologies such as HTML, CSS, Bootstrap, Flexbox, and JavaScript. By the end of the course, you'll be able to develop fully functional user interfaces, optimize user experience, and ensure compatibility across different devices and screen sizes.</p>
-  
-        <!-- Front-End Course Modules -->
-        <div class="container course-content">
-          <div class="course-module">
-            <div class="module-title">
-              <h3>Build Your Own Static Website (HTML, CSS, Bootstrap)</h3>
-            </div>
-            <div class="module-details">
-              <ul>
-                <li>Introduction to HTML and CSS</li>
-                <li>CSS Box Model</li>
-                <li>Bootstrap Fundamentals</li>
-                <li>Website Integration</li>
-              </ul>
-            </div>
+    <!-- Full Stack Header -->
+    <div class="header">
+      <h1>Full-Stack Development Course</h1>
+      <p>Master front-end and back-end technologies to build powerful web applications.</p>
+    </div>
+
+    <!-- Front-End Course Overview -->
+    <div class="container mt-5 frontend-content">
+      <h2 class="text-center">Front-End Development Course Overview</h2>
+      <p>This course is designed to teach you everything you need to know to become a Front-End Developer. You will learn how to create visually appealing, interactive, and responsive websites using core technologies such as HTML, CSS, Bootstrap, Flexbox, and JavaScript.</p>
+
+      <!-- Front-End Course Modules -->
+      <div class="course-content">
+        <div class="course-module">
+          <div class="module-title">
+            <h3>Build Your Own Static Website (HTML, CSS, Bootstrap)</h3>
           </div>
-  
-          <div class="course-module">
-            <div class="module-title">
-              <h3>Build Your Own Responsive Website (Bootstrap, Flexbox)</h3>
-            </div>
-            <div class="module-details">
-              <ul>
-                <li>Responsive Web Design</li>
-                <li>Bootstrap Grid System</li>
-                <li>Developing Layouts</li>
-              </ul>
-            </div>
-          </div>
-  
-          <div class="course-module">
-            <div class="module-title">
-              <h3>Build Your Own Dynamic Web Application (JavaScript)</h3>
-            </div>
-            <div class="module-details">
-              <ul>
-                <li>Introduction to JavaScript</li>
-                <li>Arrays and Objects</li>
-                <li>Interactive Web Applications</li>
-              </ul>
-            </div>
-          </div>
-  
-          <div class="course-module">
-            <div class="module-title">
-              <h3>JavaScript Essentials</h3>
-            </div>
-            <div class="module-details">
-              <ul>
-                <li>Events, Scope, Hoisting</li>
-                <li>ES6 Classes</li>
-                <li>Error Handling in JavaScript</li>
-              </ul>
-            </div>
+          <div class="module-details">
+            <ul>
+              <li>Introduction to HTML and CSS</li>
+              <li>CSS Box Model</li>
+              <li>Bootstrap Fundamentals</li>
+              <li>Website Integration</li>
+            </ul>
           </div>
         </div>
-  
-        <!-- Enroll Button to Switch to Backend -->
-        <div class="container enroll-btn">
-          <button class="btn btn-success" onclick="showBackendContent()">Go to Backend</button>
-        </div>
-  
-        <!-- Front-End Job Message -->
-        <div class="job-message">
-          <p><strong>Advantage:</strong> Completing the front-end portion will give you the skills to land web development jobs quickly, as front-end technologies are in high demand in the job market.</p>
-        </div>
-      </div>
-  
-      <!-- Back-End Course Content -->
-      <div class="container mt-5 backend-content">
-        <h2>Back-End Development Course Overview</h2>
-        <p>This course is focused on equipping you with the skills to build the server-side logic and databases needed to power modern web applications. You will learn how to use Python to manage server-side functionality, handle data using SQL, and build scalable, secure, and efficient back-end systems. By the end of this course, you'll be able to develop robust back-end services and integrate them with front-end interfaces to create full-stack web applications.</p>
-  
-        <!-- Backend Course Modules -->
-        <div class="container course-content">
-          <div class="course-module">
-            <div class="module-title">
-              <h3>Programming Foundations (Python)</h3>
-            </div>
-            <div class="module-details">
-              <ul>
-                <li>Introduction to Python</li>
-                <li>I/O Basics</li>
-                <li>Operators and Conditional Statements</li>
-                <li>Loops and Functions</li>
-                <li>Object-Oriented Programming</li>
-              </ul>
-            </div>
+
+        <div class="course-module">
+          <div class="module-title">
+            <h3>Build Your Own Responsive Website (Bootstrap, Flexbox)</h3>
           </div>
-  
-          <div class="course-module">
-            <div class="module-title">
-              <h3>Database Management (SQL)</h3>
-            </div>
-            <div class="module-details">
-              <ul>
-                <li>Introduction to Databases</li>
-                <li>Introduction to SQL</li>
-                <li>Queriying with SQL</li>
-                <li>Joins and Subqueries</li>
-                <li>Transactions and Indexes</li>
-              </ul>
-            </div>
+          <div class="module-details">
+            <ul>
+              <li>Responsive Web Design</li>
+              <li>Bootstrap Grid System</li>
+              <li>Developing Layouts</li>
+            </ul>
           </div>
         </div>
-  
-        <!-- Back-End Job Message -->
-        <div class="job-message">
-          <p><strong>Advantage:</strong> Completing the back-end portion will give you a strong competitive edge in securing full-stack development roles, which are highly sought after by companies.</p>
-        </div>
-  
-        <!-- Button to go back to Frontend -->
-        <div class="container enroll-btn">
-          <button class="btn btn-primary" onclick="location.reload()">Go to Frontend</button>
+
+        <div class="course-module">
+          <div class="module-title">
+            <h3>Build Your Own Dynamic Web Application (JavaScript)</h3>
+          </div>
+          <div class="module-details">
+            <ul>
+              <li>Introduction to JavaScript</li>
+              <li>Arrays and Objects</li>
+              <li>Interactive Web Applications</li>
+            </ul>
+          </div>
         </div>
       </div>
 
+      <!-- Enroll Button to Switch to Backend -->
+      <div class="enroll-btn">
+        <button class="btn btn-success" onclick="showBackendContent()">Go to Backend</button>
+      </div>
+
+      <!-- Front-End Job Message -->
+      <div class="job-message">
+        <p><strong>Advantage:</strong> Completing the front-end portion will give you the skills to land web development jobs quickly.</p>
+      </div>
+    </div>
+
+    <!-- Back-End Course Content -->
+    <div class="container mt-5 backend-content" style="display: none;">
+      <h2 class="text-center">Back-End Development Course Overview</h2>
+      <p>This course is focused on equipping you with the skills to build server-side logic and databases. You will learn how to use Python to manage server-side functionality, handle data using SQL, and build scalable systems.</p>
+
+      <!-- Backend Course Modules -->
+      <div class="course-content">
+        <div class="course-module">
+          <div class="module-title">
+            <h3>Programming Foundations (Python)</h3>
+          </div>
+          <div class="module-details">
+            <ul>
+              <li>Introduction to Python</li>
+              <li>I/O Basics</li>
+              <li>Operators and Conditional Statements</li>
+              <li>Loops and Functions</li>
+              <li>Object-Oriented Programming</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="course-module">
+          <div class="module-title">
+            <h3>Database Management (SQL)</h3>
+          </div>
+          <div class="module-details">
+            <ul>
+              <li>Introduction to Databases</li>
+              <li>Introduction to SQL</li>
+              <li>Querying with SQL</li>
+              <li>Joins and Subqueries</li>
+              <li>Transactions and Indexes</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Back-End Job Message -->
+      <div class="job-message">
+        <p><strong>Advantage:</strong> Completing the back-end portion will give you a strong competitive edge in securing full-stack development roles.</p>
+      </div>
+
+      <!-- Button to go back to Frontend -->
+      <div class="enroll-btn">
+        <button class="btn btn-primary" onclick="location.reload()">Go to Frontend</button>
+      </div>
+    </div>
   </body>
 </html>
